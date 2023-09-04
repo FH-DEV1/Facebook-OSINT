@@ -36,12 +36,6 @@ Install dependencies using :
 pip install -r requirements.txt
 ```
 
-Create a JSON file to store the data :
-
-```
-echo [] > data.json
-```
-
 To finish installation you will need to get your headers/payload on line 53/54 of main.py.  
 To do this go to https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0 open the Network console set preserve log to true and search a dummy input.  
 You should see a request named "identify.php?ctx=recover".  
